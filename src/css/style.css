@@ -36,10 +36,51 @@ header nav ul li a
 	padding-right: 30px;
 	font-weight: bold;
 	transition: all 0.3s ease-in;
+	color: black;
 }
 
 header nav ul li a:hover
 {
 	text-decoration: none;
 	color: red;
+}
+
+.img-background1
+{
+	background-image: url(../images/SMP-Banner.jpg);
+	background-size: 100% 100%;
+}
+
+.img-background2
+{
+	background-image: url(../images/abstract-music-rock-bw.jpg);
+	background-size: 100% 100%;
+}
+
+.img-background3
+{
+	background-image: url(../images/black-and-white-music-headphones-life.jpg);
+	background-size: 100% 100%;
+}
+
+.slider,.slider ul,.slider ul li
+{
+	height: 500px;
+	width: 100%;
+	color: white;
+	text-align: center;
+}
+
+.slider a
+{
+	padding: 10px, 40px;
+	margin-right: 10px;
+}
+
+.slider a.btn
+{
+	
+	background-color: red;
+	color: white;
+
 }

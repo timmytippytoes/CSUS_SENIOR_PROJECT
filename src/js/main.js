@@ -1,7 +1,7 @@
 jQuery(document).ready(function(){
 
 	"use strict";
-	$('.slider-carousel').carouFredSel({
+	$('#slider-carousel').carouFredSel({
 		responsive: true,
 		width: '100%',
 		circular: true,
@@ -32,5 +32,6 @@ jQuery(document).ready(function(){
 			pageAnchorBuilder: false
 		}
 	});
+	
 	
 });
