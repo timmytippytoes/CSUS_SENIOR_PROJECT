@@ -70,7 +70,10 @@ header nav ul li a:hover
 	color: white;
 	text-align: center;
 }
-
+.slider h2
+{
+	margin-top: 100px;
+}
 .slider a
 {
 	padding: 10px, 40px;
@@ -82,5 +85,4 @@ header nav ul li a:hover
 	
 	background-color: red;
 	color: white;
-
 }
